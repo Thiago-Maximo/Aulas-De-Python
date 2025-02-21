@@ -9,7 +9,7 @@ print('#'*10)
 valor_reais = float(input("Digite o valor em Reais (BRL): "))
 
 # Defina a taxa de câmbio atual (exemplo, 1 BRL = 0,19 USD)
-taxa_cambio = 0.18  # Alterar conforme a taxa atual
+taxa_cambio = 0.1753555  # Alterar conforme a taxa atual
 
 # Converte o valor em Reais para Dólares
 valor_dolares = converter_reais_para_dolares(valor_reais, taxa_cambio)
