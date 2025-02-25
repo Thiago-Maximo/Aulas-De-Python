@@ -2,5 +2,6 @@
 import math
 cateto_oposto = int(input('Digite o valor do cateto oposto: '))
 cateto_adjacente = int(input('Digite o valor do cateto adjacente: '))
+# math.hypot() Calcula a Hipotenusa
 hipotenusa = math.hypot(cateto_oposto,cateto_adjacente)
 print(f'A Hipotenusa é: {hipotenusa}')
