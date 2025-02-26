@@ -19,3 +19,15 @@ print("Nomes em ordem aleatória:")
 for nome in vetor_nomes:
     print(nome.strip())  # .strip() remove espaços extras antes ou depois dos nomes
 
+# Segunda forma de fazer
+
+print('')
+
+n1 = input('Digite o nome de seu aluno: ')
+n2 = input('Digite o nome de seu aluno: ')
+n3 = input('Digite o nome de seu aluno: ')
+n4 = input('Digite o nome de seu aluno: ')
+
+lista = [n1, n2,n3,n4]
+random.shuffle(lista)
+print(f'O aluno escolhido foi: {lista}')

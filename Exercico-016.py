@@ -6,3 +6,13 @@ real = float(input('Digite um Número Real, EX(6.127): '))
 inteiro = math.floor(real)
 # math.floor() arredonda o numero para baixo
 print(f'O Número {real} tem como sua parte inteira o numero {inteiro}')
+
+print('')
+
+# Possivel uilizar o trunc
+
+print('Não Utilize virgula, apenas o Ponto . ')
+real = float(input('Digite um Número Real, EX(6.127): '))
+inteiro = math.trunc(real)
+# math.floor() arredonda o numero para baixo
+print(f'O Número {real} tem como sua parte inteira o numero {inteiro}')

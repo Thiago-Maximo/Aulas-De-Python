@@ -17,6 +17,16 @@ escolhido = random.choice(vetor_nomes)
 # Exibindo o nome do aluno escolhido
 print(f'O aluno escolhido foi: {escolhido.strip()}')  # .strip() remove espaços extras
 
+# Segunda Forma de Fazer
+n1 = input('Digite o nome de seu aluno: ')
+n2 = input('Digite o nome de seu aluno: ')
+n3 = input('Digite o nome de seu aluno: ')
+n4 = input('Digite o nome de seu aluno: ')
+
+lista = [n1, n2,n3,n4]
+escolhido_novo = random.choice(lista)
+print(f'O aluno escolhido foi: {escolhido_novo}')
+
 
 # Hoje, ao tentar escrever um programa para sortear um aluno de um grupo, encontrei um erro que me impediu de rodar o código corretamente. Eu estava tentando usar a função random.choice() para escolher aleatoriamente um nome de um vetor, mas algo não estava funcionando. O erro aconteceu por dois motivos principais, e aqui está o que eu percebi:
 #
