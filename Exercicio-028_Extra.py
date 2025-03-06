@@ -1,0 +1,1 @@
+# Crie um Algoritmo que imite uma maquina registradora, para sacar dinheiro.
