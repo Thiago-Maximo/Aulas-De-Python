@@ -1,0 +1,2 @@
+# Escreva Um Programa que Faça o Computador "Pensar" em um numero inteiro entre 0 e 5 e peça para o Usuario tentar adivinhar qual foi o nome esolhido pelo computador.
+# O Programa deverá escrever na tela se o usuario venceu ou perdeu.
